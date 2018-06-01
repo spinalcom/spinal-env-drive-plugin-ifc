@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/spinalcom/spinal-env-drive-plugin-ifc/issues"
   },
-  "homepage": "https://github.com/spinalcom/spinal-env-drive-plugin-ifc#readme"
+  "homepage": "https://github.com/spinalcom/spinal-env-drive-plugin-ifc#readme",
+  "dependencies": {
+    "spinal-core-connectorjs": "git+https://github.com/spinalcom/spinal-core-connectorjs.git",
+    "spinal-env-drive-core": "git+https://github.com/spinalcom/spinal-env-drive-core.git"
+  }
 }
